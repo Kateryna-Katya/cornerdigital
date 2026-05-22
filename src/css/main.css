@@ -25,6 +25,15 @@
 .home-logo{
     margin-top: 100px;
 }
+.home-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 243px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+}
 @media only screen and (min-width: 1440px) {
  .home-section{
     background-image: url("/img/home/desk.png");
@@ -251,4 +260,100 @@ width: 955px;
 
      height: 220px;
  }
+}
+.bg{
+    background-image: url("/img/bg/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom 80px center;
+    background-size: 100% 219px;
+}
+@media only screen and (min-width: 1440px) {
+.bg{
+    background-image: url("/img/bg/desk.png");
+    background-repeat: no-repeat;
+    background-position: bottom 150px center;
+    background-size: 100% 841px;
+}    
+}
+/* Why Play? */
+.span{
+    font-weight: 700;
+}
+.why-text{
+    margin-top: 22px;
+    font-family: "Baloo 2", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #342e4f;
+}
+.why-link{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 243px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.why-container{
+    padding-top: 150px;
+}
+.why-wrapper{
+width: 524px;
+    height: 310px;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.why-wrapper h2{
+    text-align: left;
+}
+.why-link {
+    margin-left: 0;
+    margin-right: auto;
+}
+}
+/* Contact */
+.contact-container{
+    padding-bottom: 120px;
+}
+.contact-text{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Baloo 2", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #342e4f;
+}
+@media only screen and (min-width: 1440px) {
+    .contact-container{
+    padding-bottom: 260px;
+}
+.contact-wrapper{
+    width: 264px;
+        height: 145px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-left: 260px;
+}
+.contact-wrapper h2{
+    text-align: right;
+}
+.contact-link{
+    justify-content: end;
+}
 }
