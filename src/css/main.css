@@ -41,3 +41,39 @@ height: 753px;
     margin-left: 200px;
 }
 }
+/* About the Game */
+.about-subtitle{
+    margin-top: 22px;
+    font-family: "Baloo 2", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #dcadf4;
+margin-bottom: 24px;
+}
+.about-container{
+    padding-top: 80px;
+}
+@media only screen and (min-width: 1440px) {
+.about-container{
+    position: relative;
+    padding-top: 150px;
+}
+.about-title{
+    margin-left: 800px;
+    text-align: left;
+}
+.about-img{
+    position: absolute;
+    left: 14%;
+    top: 28%;
+}
+.about-subtitle{
+    margin-left: 800px;
+    text-align: left;
+}
+.about-text{
+    margin-left: 800px;
+    width: 414px;
+}
+}
