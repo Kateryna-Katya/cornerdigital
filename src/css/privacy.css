@@ -78,19 +78,7 @@ font-family: "Plus Jakarta Sans", sans-serif;
 
 @media only screen and (min-width: 1440px) {
     .policy-container {
-        padding-left: 212px;
-        padding-right: 212px;
-    }
-
-    .privacy-title {
-        font-size: 52px;
-    }
-
-    .policy-subtitle {
-        font-size: 18px;
-    }
-
-    .article {
-        font-size: 16px;
+        padding-left: 180px;
+        padding-right: 180px;
     }
 }
